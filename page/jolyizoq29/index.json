@@ -1,0 +1,41 @@
+{
+  "id": "jolyizoq29",
+  "name": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "description": {
+    "tr": "Devam eden ve tamamlanan örnek projeler; görseller temsilidir.",
+    "en": "Ongoing and completed sample projects; images are representative.",
+    "ar": "مشاريع نموذجية قيد الإنجاز ومنجزة؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "proje, konut projesi, villa",
+    "en": "projects, housing project, villa",
+    "ar": "مشاريع، مشروع سكني، فلل"
+  },
+  "path": "projeler",
+  "icon": "domain",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "z2x69y",
+      "r04cyw",
+      "fzjn7r"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "date": "2026-10-30T18:49:51.964Z",
+  "update": "2026-10-30T18:54:48.755Z"
+}

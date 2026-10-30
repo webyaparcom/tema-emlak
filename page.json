@@ -1,0 +1,221 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "İlanlar",
+        "en": "Listings",
+        "ar": "الإعلانات"
+      },
+      "status": "play",
+      "id": "ilanlar",
+      "path": "ilanlar",
+      "category": "",
+      "url": "",
+      "index": 0,
+      "icon": "real_estate_agent",
+      "desing": {
+        "header": [],
+        "body": [
+          "k8il02"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Satılık ve kiralık ilanlar; tür, oda, m², fiyat ve semt filtresiyle. Her ilanda yetki belgesi no (örnek).",
+        "en": "Listings for sale and rent with type, rooms, area, price and district filters. Every listing carries an authorization no. (sample).",
+        "ar": "إعلانات للبيع والإيجار مع تصفية حسب النوع والغرف والمساحة والسعر والحي. في كل إعلان رقم شهادة تفويض (مثال)."
+      }
+    },
+    {
+      "id": "jolyizoq29",
+      "name": {
+        "tr": "Projeler",
+        "en": "Projects",
+        "ar": "المشاريع"
+      },
+      "description": {
+        "tr": "Devam eden ve tamamlanan örnek projeler; görseller temsilidir.",
+        "en": "Ongoing and completed sample projects; images are representative.",
+        "ar": "مشاريع نموذجية قيد الإنجاز ومنجزة؛ الصور تمثيلية."
+      },
+      "path": "projeler",
+      "icon": "domain",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "z2x69y",
+          "r04cyw",
+          "fzjn7r"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "hhvmdmh7t7",
+      "name": {
+        "tr": "Danışmanlarımız",
+        "en": "Our Advisors",
+        "ar": "مستشارونا"
+      },
+      "description": {
+        "tr": "Gayrimenkul danışmanlarımız ve uzmanlık alanları.",
+        "en": "Our property advisors and their areas of expertise.",
+        "ar": "مستشارونا العقاريون ومجالات خبرتهم."
+      },
+      "path": "danismanlarimiz",
+      "icon": "groups",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "k8tm01",
+          "fzjn7r"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "6ncc1oxqls",
+      "name": {
+        "tr": "Değerleme",
+        "en": "Valuation",
+        "ar": "التقييم"
+      },
+      "description": {
+        "tr": "Mülkünüz için değerleme görüşmesi talebi (demo).",
+        "en": "A valuation meeting request for your property (demo).",
+        "ar": "طلب اجتماع تقييم لعقارك (تجريبي)."
+      },
+      "path": "degerleme",
+      "icon": "calculate",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "b93nsu",
+          "chbgae"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "8iq8yk3z80",
+      "name": {
+        "tr": "Ofislerimiz",
+        "en": "Our Offices",
+        "ar": "مكاتبنا"
+      },
+      "description": {
+        "tr": "İstanbul, Ankara ve İzmir ofislerimiz ve çalışma saatleri.",
+        "en": "Our Istanbul, Ankara and Izmir offices and opening hours.",
+        "ar": "مكاتبنا في إسطنبول وأنقرة وإزمير وساعات العمل."
+      },
+      "path": "ofislerimiz",
+      "icon": "apartment",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jg3kdw",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "k8in01",
+          "k8st01",
+          "x1f009"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Anka Gayrimenkul hakkında.",
+        "en": "About Anka Gayrimenkul.",
+        "ar": "نبذة عن أنكا غيرمنكول."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "k8ct01",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    },
+    {
+      "id": "rz7jbp48fh",
+      "name": {
+        "tr": "İlan Detayı",
+        "en": "Listing Details",
+        "ar": "تفاصيل الإعلان"
+      },
+      "description": {
+        "tr": "Örnek ilan detayı: fotoğraflar, özellikler, konum ve yerinde gösterim talebi.",
+        "en": "Sample listing page: photos, features, location and a viewing request.",
+        "ar": "صفحة إعلان نموذجية: صور ومواصفات وموقع وطلب معاينة."
+      },
+      "path": "ilan",
+      "icon": "home_work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "555no8",
+          "ktt03d",
+          "ty5165"
+        ],
+        "footer": []
+      },
+      "index": 7
+    }
+  ],
+  "desc": []
+}

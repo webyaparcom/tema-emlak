@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Anka Gayrimenkul: satılık ve kiralık konut, villa, arsa ve işyeri ilanları; her ilanda yetki belgesi numarası. (Demo site)",
+    "en": "Anka Gayrimenkul: homes, villas, plots and commercial units for sale and rent, with an authorization number on every listing. (Demo site)",
+    "ar": "أنكا غيرمنكول: عقارات سكنية وفلل وأراضٍ ومحال تجارية للبيع والإيجار، مع رقم شهادة تفويض في كل إعلان. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "emlak, satılık, kiralık, daire, villa, arsa, yetki belgesi",
+    "en": "real estate, for sale, for rent, apartment, villa, plot, authorization number",
+    "ar": "عقارات، للبيع، للإيجار، شقة، فيلا، أرض، شهادة تفويض"
+  },
+  "category": "Kurumsal",
+  "name": "Anka Gayrimenkul",
+  "domain": "emlak.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "dm-serif-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-naskh-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1B3A5C",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "8px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "12px"
+  },
+  "icon": "icon.png"
+}
