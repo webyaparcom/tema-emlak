@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 5,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "k8in01",
+      "k8st01",
+      "x1f009"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Anka Gayrimenkul hakkında.",
+    "en": "About Anka Gayrimenkul.",
+    "ar": "نبذة عن أنكا غيرمنكول."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda, gayrimenkul",
+    "en": "about, real estate",
+    "ar": "من نحن، عقارات"
+  },
+  "text": {},
+  "update": "2026-10-30T18:54:48.775Z",
+  "date": "2026-10-30"
+}

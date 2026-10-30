@@ -1,0 +1,41 @@
+{
+  "id": "kalitepolitikamiz",
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "kalitepolitikamiz",
+  "icon": "verified",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Her ilanda yetki belgesi numarası, doğrulanabilir fiyat ve ölçü bilgisi ile güncel ve gerçeğe uygun ilan yayınlamak esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>We publish only current and accurate listings, each with an authorization number and verifiable price and area information.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>نلتزم بنشر إعلانات حديثة ومطابقة للواقع، وفي كل منها رقم شهادة تفويض ومعلومات سعر ومساحة قابلة للتحقق.</p>"
+  },
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "date": "2026-10-30T18:28:57.461Z",
+  "update": "2026-10-30T18:54:48.801Z"
+}

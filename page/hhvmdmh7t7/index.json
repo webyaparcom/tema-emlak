@@ -1,0 +1,40 @@
+{
+  "id": "hhvmdmh7t7",
+  "name": {
+    "tr": "Danışmanlarımız",
+    "en": "Our Advisors",
+    "ar": "مستشارونا"
+  },
+  "description": {
+    "tr": "Gayrimenkul danışmanlarımız ve uzmanlık alanları.",
+    "en": "Our property advisors and their areas of expertise.",
+    "ar": "مستشارونا العقاريون ومجالات خبرتهم."
+  },
+  "keyword": {
+    "tr": "danışman, emlak danışmanı, ekip",
+    "en": "advisor, property advisor, team",
+    "ar": "مستشار، مستشار عقاري، فريق"
+  },
+  "path": "danismanlarimiz",
+  "icon": "groups",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "k8tm01",
+      "fzjn7r"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Danışmanlarımız",
+    "en": "Our Advisors",
+    "ar": "مستشارونا"
+  },
+  "date": "2026-10-30T18:49:51.970Z",
+  "update": "2026-10-30T18:54:48.764Z"
+}
