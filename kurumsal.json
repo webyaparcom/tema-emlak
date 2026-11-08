@@ -163,6 +163,32 @@
         "footer": []
       },
       "index": 6
+    },
+    {
+      "id": "8iq8yk3z80",
+      "name": {
+        "tr": "Ofislerimiz",
+        "en": "Our Offices",
+        "ar": "مكاتبنا"
+      },
+      "description": {
+        "tr": "İstanbul, Ankara ve İzmir ofislerimiz ve çalışma saatleri.",
+        "en": "Our Istanbul, Ankara and Izmir offices and opening hours.",
+        "ar": "مكاتبنا في إسطنبول وأنقرة وإزمير وساعات العمل."
+      },
+      "path": "ofislerimiz",
+      "icon": "apartment",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jg3kdw",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "index": 7
     }
   ]
 }

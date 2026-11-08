@@ -46,7 +46,10 @@
         "logo": "logo.png",
         "color": "var(--mx-site-text, #1b1b1b)",
         "height": "84px",
-        "background-color": "var(--mx-site-bg, #ffffff)"
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
       },
       "version": "1.0.0",
       "icon": "menu",
@@ -484,7 +487,8 @@
         "numbercolor": "#ffffff",
         "labelcolor": "rgba(255,255,255,.88)",
         "iconsize": "56px",
-        "iconbox": "88px"
+        "iconbox": "88px",
+        "stil": ""
       },
       "version": "1.0.0",
       "icon": "monitoring",
@@ -561,7 +565,8 @@
           "en": "Advisor names and titles are fictional; the photos are AI-generated.",
           "ar": "أسماء المستشارين وألقابهم افتراضية، والصور مُنشأة بالذكاء الاصطناعي."
         },
-        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "#ffffff"
       },
       "version": "1.0.0",
       "icon": "groups",
@@ -653,7 +658,10 @@
         "color": "var(--mx-site-text, #1b1b1b)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "minimal_design": true,
-        "social_media": false
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto"
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -674,7 +682,8 @@
           "ar": "تواصل معنا"
         },
         "margin": "30px 0px 30px 0px",
-        "linkcolor": "var(--mx-site-primary, #2563eb)"
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
       },
       "version": "1.0.0",
       "icon": "contact_mail",
@@ -775,7 +784,8 @@
           "tr": "Kurumsal",
           "en": "Company",
           "ar": "المؤسسة"
-        }
+        },
+        "stil": ""
       },
       "version": "1.1.0",
       "icon": "business",
@@ -1391,7 +1401,8 @@
           "ar": "تقييم مجاني"
         },
         "btn2_url": "degerleme",
-        "stats": ""
+        "stats": "",
+        "stil": ""
       },
       "category": "hero",
       "description": "Gradient hero: istatistikler, CTA, görsel alanı. Metinler cok dilli (tr/en); renkler --gradient--, --btn_primary_bg-- ile markaya uyumlanır. Buton URL pathnext (urunler, iletisim).",
@@ -1426,7 +1437,9 @@
           "tr": "Sürecin her adımında açık bilgi ve belgeli ilan.",
           "en": "Clear information and documented listings at every step.",
           "ar": "معلومات واضحة وإعلانات موثقة في كل خطوة."
-        }
+        },
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff"
       },
       "data": [
         {
@@ -1519,7 +1532,8 @@
           "en": "Our advisors",
           "ar": "مستشارونا"
         },
-        "btn2Url": "danismanlarimiz"
+        "btn2Url": "danismanlarimiz",
+        "stil": ""
       },
       "category": "cta",
       "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir.",
@@ -1559,7 +1573,8 @@
           "en": "Our offices",
           "ar": "مكاتبنا"
         },
-        "btn2Url": "ofislerimiz"
+        "btn2Url": "ofislerimiz",
+        "stil": ""
       },
       "category": "cta",
       "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir.",
@@ -1658,7 +1673,8 @@
           "tr": "İlan detayı",
           "en": "Listing details",
           "ar": "تفاصيل الإعلان"
-        }
+        },
+        "stil": ""
       },
       "category": "module",
       "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir.",
@@ -2861,7 +2877,8 @@
           "ar": "جدول مشروع نموذجي؛ التواريخ افتراضية ومدد التسليم ليست التزامًا."
         },
         "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "#ffffff"
       },
       "data": [
         {
@@ -2938,7 +2955,8 @@
           "ar": "رأي في سعر عقارك في أربع خطوات."
         },
         "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "#ffffff"
       },
       "data": [
         {
@@ -3690,7 +3708,8 @@
           "ar": "مكاتبنا"
         },
         "margin": "30px 0px 30px 0px",
-        "linkcolor": "#1B3A6B"
+        "linkcolor": "#1B3A6B",
+        "stil": ""
       },
       "data": [
         {
