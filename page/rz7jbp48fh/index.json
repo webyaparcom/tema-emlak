@@ -17,7 +17,7 @@
   },
   "path": "ilan",
   "icon": "home_work",
-  "category": "",
+  "category": "ilanlar",
   "status": "play",
   "desing": {
     "header": [],
@@ -37,5 +37,5 @@
     "ar": "تفاصيل الإعلان"
   },
   "date": "2026-10-30T18:49:51.957Z",
-  "update": "2026-11-05T22:24:52.278Z"
+  "update": "2026-11-12T07:35:35.346Z"
 }
