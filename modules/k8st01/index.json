@@ -1,63 +1,53 @@
 {
-  "name": "İstatistik Bandı 1",
-  "desing": {
-    "stil": "",
-    "max": "1200px",
-    "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 100%)",
-    "numbercolor": "#DE6D26",
-    "labelcolor": "#e2e8f0",
-    "iconsize": "56px",
-    "iconbox": "88px"
-  },
-  "data": [
-    {
-      "number": 150,
-      "suffix": "+",
-      "label": {
-        "tr": "Tamamlanan Proje",
-        "en": "Completed Projects",
-        "ar": "مشروع منجز"
-      },
-      "icon": "task_alt"
-    },
-    {
-      "number": 50,
-      "suffix": "+",
-      "label": {
-        "tr": "Mutlu Müşteri",
-        "en": "Happy Customers",
-        "ar": "عميل راضٍ"
-      },
-      "icon": "sentiment_satisfied"
-    },
-    {
-      "number": 10,
-      "suffix": "+",
-      "label": {
-        "tr": "Yıllık Deneyim",
-        "en": "Years of Experience",
-        "ar": "سنوات خبرة"
-      },
-      "icon": "workspace_premium"
-    },
-    {
-      "number": 24,
-      "suffix": "/7",
-      "label": {
-        "tr": "Destek",
-        "en": "Support",
-        "ar": "دعم"
-      },
-      "icon": "support_agent"
-    }
-  ],
+  "name": "Sayaç Kayan Bant — borsa şeridi gibi akan rakamlar",
+  "description": "Vurgu zeminli bantta rakam · etiket çiftleri sonsuz döngüde yatay akar; üzerine gelince durur, RTL'de ters yöne akar, azaltılmış harekette sarılı sıra olur. Statik ızgara değil, hareketli bir şerit (ticker): sayfa bölücüsü gibi ince, sürekli akan rakam bandı. Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "swap_horiz",
   "category": "stats",
-  "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
-  "version": "1.1.0",
-  "icon": "monitoring",
+  "subCategory": "ticker",
+  "tags": [
+    "stats",
+    "ticker",
+    "marquee",
+    "band",
+    "motion",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "100%",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-primary, #2563eb)",
+    "text": "var(--mx-site-primary-contrast, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+    "accent": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentText": "var(--mx-site-primary, #2563eb)",
+    "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguText": "var(--mx-site-primary, #2563eb)",
+    "bgcolor": "var(--mx-site-primary, #2563eb)",
+    "color": "var(--mx-site-primary-contrast, #ffffff)"
+  },
+  "data": [],
   "veri": {
     "statik": true,
     "dinamik": false,
-    "kaynak": "desing/data"
+    "kaynak": "data",
+    "alanlar": {
+      "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+      "onek": "önek (dil sözlüğü; ör. «%»)",
+      "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+      "etiket": "etiket (dil sözlüğü, zorunlu)",
+      "metin": "kısa not (dil sözlüğü)",
+      "ikon": "Material Symbols adı",
+      "ondalik": "ondalık basamak (yoksa sayıdan)",
+      "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+    }
   }
 }

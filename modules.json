@@ -36,30 +36,62 @@
           "tr": "Üye Girişi",
           "en": "Login",
           "ar": "تسجيل الدخول"
-        }
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
       "version": "1.0.0",
       "icon": "info",
       "index": 0
     },
     {
-      "name": "Menü 4",
-      "path": "menu-4",
+      "name": "Üst Dikey Çizgi — ince çizgilerle ayrılmış büyük harf menü",
+      "path": "ust-dikey-cizgi",
       "local": "header",
       "category": "menu",
       "id": "k8mn01",
       "desing": {
+        "color": "var(--mx-site-text, #111318)",
         "logo": "logo.png",
-        "color": "var(--mx-site-text, #1b1b1b)",
         "height": "84px",
         "background-color": "var(--mx-site-bg, #ffffff)",
         "menubg": "",
         "menutext": "#fff",
-        "menuhoverbg": "rgba(255,255,255,.18)"
+        "menuhoverbg": "rgba(255,255,255,.18)",
+        "max": "1200px",
+        "bosluk": "0px",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "tel": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "44px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)"
       },
       "version": "1.0.0",
-      "icon": "menu",
-      "index": 1
+      "icon": "view_week",
+      "index": 1,
+      "description": "Logo başta; menü öğeleri ince dikey çizgilerle ayrılmış küçük büyük harfli etiketler; sonda kenarlıklı köşeli düğme. Alt sayfalar açılır kutuda. Dar ekranda açılır liste. Zarif ve teknik: yuvarlak, dolgu ya da gölge yok — yalnız çizgi ve harf aralığı (mimarlık/danışmanlık dili). Sayfalar site sayfalarından, dil seçici {{langbar}}, logo {{logo}}. Mobil menü erişilebilir (aria-expanded, Esc, odak). Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "name": "ek bağlantı adı (dil sözlüğü)",
+          "url": "iç yol ya da dış adres (dış adres yeni sekmede)"
+        }
+      }
     },
     {
       "name": "Hero 2 (Ortalanmış)",
@@ -482,8 +514,8 @@
       "index": 3
     },
     {
-      "name": "İstatistik Bandı 1",
-      "path": "stats-1",
+      "name": "Sayaç Kayan Bant — borsa şeridi gibi akan rakamlar",
+      "path": "sayac-kayan-bant",
       "local": "body",
       "category": "stats",
       "id": "k8st01",
@@ -494,10 +526,27 @@
         "labelcolor": "rgba(255,255,255,.88)",
         "iconsize": "56px",
         "iconbox": "88px",
-        "stil": ""
+        "stil": "",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-primary, #2563eb)",
+        "text": "var(--mx-site-primary-contrast, #ffffff)",
+        "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+        "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+        "accent": "var(--mx-site-primary-contrast, #ffffff)",
+        "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+        "accentText": "var(--mx-site-primary, #2563eb)",
+        "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguText": "var(--mx-site-primary, #2563eb)",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "color": "var(--mx-site-primary-contrast, #ffffff)"
       },
       "version": "1.0.0",
-      "icon": "monitoring",
+      "icon": "swap_horiz",
       "data": [
         {
           "number": 9,
@@ -540,22 +589,40 @@
           "icon": "verified"
         }
       ],
-      "index": 4
+      "index": 4,
+      "description": "Vurgu zeminli bantta rakam · etiket çiftleri sonsuz döngüde yatay akar; üzerine gelince durur, RTL'de ters yöne akar, azaltılmış harekette sarılı sıra olur. Statik ızgara değil, hareketli bir şerit (ticker): sayfa bölücüsü gibi ince, sürekli akan rakam bandı. Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+          "onek": "önek (dil sözlüğü; ör. «%»)",
+          "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+          "etiket": "etiket (dil sözlüğü, zorunlu)",
+          "metin": "kısa not (dil sözlüğü)",
+          "ikon": "Material Symbols adı",
+          "ondalik": "ondalık basamak (yoksa sayıdan)",
+          "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+        }
+      }
     },
     {
-      "name": "Ekip 1",
-      "path": "team-1",
+      "name": "Ekip Yuvarlak Halka — dönen yay çerçeveli daire portreler",
+      "path": "ekip-yuvarlak-halka",
       "local": "body",
       "category": "team",
       "id": "k8tm01",
       "desing": {
         "max": "1200px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "cardbg": "var(--mx-site-surface, #ffffff)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "titlecolor": "var(--mx-site-text, #1b1b1b)",
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
-        "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
           "tr": "Ekip",
           "en": "Team",
@@ -571,11 +638,23 @@
           "en": "Advisor names and titles are fictional; the photos are AI-generated.",
           "ar": "أسماء المستشارين وألقابهم افتراضية، والصور مُنشأة بالذكاء الاصطناعي."
         },
-        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "accentText": "#ffffff"
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "version": "1.0.0",
-      "icon": "groups",
+      "icon": "radio_button_unchecked",
       "data": [
         {
           "name": {
@@ -650,18 +729,35 @@
           }
         }
       ],
-      "index": 5
+      "index": 5,
+      "description": "Ortalanmış daire portreler; her portrenin çevresinde vurgu renkli yarım yay, üzerine gelince yay döner. Altta ad, unvan ve ikon bağlantılar. Kart yok: yalnız daire portre + dönen yay halkası; kalabalık olmayan, sıcak bir ekip sunumu. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "metin": "kısa tanıtım (dil sözlüğü)",
+          "img": "portre görseli (yoksa baş harfler)",
+          "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+          "eposta": "e-posta (mailto)",
+          "telefon": "telefon (tel:)",
+          "url": "profil sayfası bağlantısı",
+          "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+        }
+      }
     },
     {
-      "name": "Footer 3",
-      "path": "footer-3",
+      "name": "Alt Gazete — çift çizgili manşet ve sütun aralıkları",
+      "path": "alt-gazete",
       "local": "footer",
       "category": "footer",
       "id": "k8ft01",
       "desing": {
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
         "showlang": true,
-        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
-        "color": "var(--mx-site-text, #1b1b1b)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "minimal_design": true,
         "social_media": false,
@@ -672,21 +768,63 @@
         "duzen": "",
         "slogan": "",
         "ikinciSutun": "",
-        "iletisimNot": ""
+        "iletisimNot": "",
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "hakkinda": "",
+        "tel": "",
+        "eposta": "",
+        "adres": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "rightsText": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px"
       },
       "version": "1.0.0",
       "icon": "widgets",
       "data": [],
-      "index": 6
+      "index": 6,
+      "description": "Gazete künyesi: çift çizgi arasında ortalı dev serif site adı ve yıl satırı; altında dikey sütun çizgileriyle ayrılmış sayfalar · bağlantılar · iletişim · saatler; telif künye satırında. Basılı yayın estetiği: serif manşet, çift yatay çizgi ve sütunlar arası dikey ince çizgiler. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      }
     },
     {
-      "name": "İletişim",
-      "path": "contact-3",
+      "name": "İletişim Saat Panosu — çalışma saatleri öne",
+      "path": "iletisim-saat-panosu",
       "local": "body",
       "category": "contact",
       "id": "k8ct01",
       "desing": {
-        "color": "var(--mx-site-text, #1b1b1b)",
+        "color": "var(--mx-site-text, #111318)",
         "name": {
           "tr": "Bize ulaşın",
           "en": "Contact us",
@@ -694,10 +832,35 @@
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": "",
+        "whatsapp": "",
+        "saat": "",
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)"
       },
       "version": "1.0.0",
-      "icon": "contact_mail",
+      "icon": "schedule",
       "data": [
         {
           "icon": "phone",
@@ -726,7 +889,19 @@
           "url": ""
         }
       ],
-      "index": 7
+      "index": 7,
+      "description": "Çalışma saatleri büyük bir panoda (saat ikonu + dev yazı); yanında öbür kanallar ikonlu liste ve eylem bağlantılarıyla. Saat yoksa ilk kanal panoya çıkar. «Ne zaman açıksınız?» sorusunu ilk yanıtlayan düzen; mağaza/klinik ziyaretini hedefler. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      }
     },
     {
       "name": "Maps",
@@ -748,12 +923,14 @@
       "index": 8
     },
     {
-      "name": "Tanıtım Modülü",
-      "path": "module-1",
+      "name": "Tanıtım Polaroid — eğik fotoğraf kartı ve el yazısı not",
+      "path": "tanitim-polaroid",
       "local": "body",
       "category": "module",
       "id": "k8in01",
       "desing": {
+        "img": "emlak-ilan-cephe.webp",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
         "name": {
           "tr": "Anka Gayrimenkul",
           "en": "Anka Gayrimenkul",
@@ -786,8 +963,6 @@
           "ar": "استشارة للمشتري والبائع بالوضوح نفسه ودون ضغط."
         },
         "icon3": "handshake",
-        "img": "emlak-ilan-cephe.webp",
-        "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
         "marginbotton": "20",
@@ -796,11 +971,45 @@
           "en": "Company",
           "ar": "المؤسسة"
         },
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img2": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "version": "1.1.0",
-      "icon": "business",
-      "index": 9
+      "icon": "photo_camera",
+      "index": 9,
+      "description": "Görsel kalın beyaz kenarlı, hafif eğik bir polaroid kartında (altında üst etiket notu), bantla tutturulmuş; yanda başlık, metin, maddeler. Samimi, nostaljik nesne metaforu (polaroid + bant); kurumsal dikdörtgen görselin tersine sıcak aile/esnaf dili. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      }
     },
     {
       "name": "İlan Filtre (Emlak İlan Listesi)",
@@ -1367,9 +1576,14 @@
       "index": 10
     },
     {
-      "name": "Hero 1",
+      "name": "Açılış Panorama Şerit — üstte görsel, altta binen üç sütunlu şerit",
       "desing": {
         "max": "1200px",
+        "alt": {
+          "tr": "Altın saatte balkonlu modern konut kulesi",
+          "en": "Modern residential tower with balconies at golden hour",
+          "ar": "برج سكني حديث بشرفات في الساعة الذهبية"
+        },
         "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
         "overlay": "linear-gradient(135deg, rgba(0,0,0,.55), rgba(0,0,0,.35))",
         "title_accent": "linear-gradient(135deg, #ffffff, #ffffff)",
@@ -1395,11 +1609,6 @@
           "ar": "استشارات عقارية"
         },
         "image": "/img/emlak-hero-bina.webp",
-        "alt": {
-          "tr": "Altın saatte balkonlu modern konut kulesi",
-          "en": "Modern residential tower with balconies at golden hour",
-          "ar": "برج سكني حديث بشرفات في الساعة الذهبية"
-        },
         "btn1": {
           "tr": "İlanları gör",
           "en": "Browse listings",
@@ -1413,23 +1622,63 @@
         },
         "btn2_url": "degerleme",
         "stats": "",
-        "stil": ""
+        "stil": "",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img": "",
+        "img2": "",
+        "video": "",
+        "poster": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "rozet_ikon": "",
+        "rozet_deger": "",
+        "rozet_metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "category": "hero",
       "description": "Gradient hero: istatistikler, CTA, görsel alanı. Metinler cok dilli (tr/en); renkler --gradient--, --btn_primary_bg-- ile markaya uyumlanır. Buton URL pathnext (urunler, iletisim).",
       "version": "1.1.0",
-      "icon": "hero",
+      "icon": "view_day",
       "id": "7dmwyl",
-      "path": "hero-1",
+      "path": "acilis-panorama-serit",
       "local": "body",
       "data": [],
-      "index": 11
+      "index": 11,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "deger": "sayı/değer (ör. 1.200+, dil sözlüğü olabilir)",
+          "metin": "madde metni (dil sözlüğü)",
+          "img": "madde görseli (mozaik yerleşimlerde)",
+          "url": "madde bağlantısı"
+        }
+      }
     },
     {
-      "name": "Kurumsal Değerler 1",
+      "name": "Değer Brutal — kalın çerçeve, sert gölge, renkli başlık bandı",
       "desing": {
         "max": "1200px",
-        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
         "accent": "var(--mx-site-primary, #2563eb)",
         "titlecolor": "var(--mx-site-text, #1b1b1b)",
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
@@ -1450,7 +1699,22 @@
           "ar": "معلومات واضحة وإعلانات موثقة في كل خطوة."
         },
         "badgebg": "#2E6BFF",
-        "badgecolor": "#ffffff"
+        "badgecolor": "#ffffff",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "0px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "data": [
         {
@@ -1507,18 +1771,43 @@
         }
       ],
       "category": "values",
-      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "description": "Kalın yazı rengi çerçeveli kutular, alta düşen sert gölge; başlık kutunun tepesinde renkli bant, ikon kutunun köşesinden taşar. Hover'da kutu gölgeye oturur. Neo-brutalist dil: yüksek kontrast, kaba çerçeve, oyunbaz taşan ikon; kurumsal yumuşak kartın tersi. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
       "version": "1.0.0",
-      "icon": "diamond",
+      "icon": "crop_square",
       "id": "5fm8vl",
-      "path": "values-1",
+      "path": "deger-brutal",
       "local": "body",
-      "index": 12
+      "index": 12,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ikon": "Material Symbols adı",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "etiket": "dil sözlüğü (küçük üst etiket)",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı (kartın tamamı tıklanır)"
+        }
+      }
     },
     {
-      "name": "CTA Şerit 1",
+      "name": "Çağrı Bilet — delikli kupon kartı",
       "desing": {
         "max": "1200px",
+        "btn1Text": {
+          "tr": "Değerleme iste",
+          "en": "Request a valuation",
+          "ar": "اطلب تقييمًا"
+        },
+        "btn1Url": "degerleme",
+        "btn2Text": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "btn2Url": "danismanlarimiz",
         "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
         "btnbg": "#ffffff",
         "btncolor": "#10203A",
@@ -1532,34 +1821,73 @@
           "en": "Request a valuation meeting for the property you want to sell or rent out.",
           "ar": "اطلب اجتماع تقييم للعقار الذي ترغب في بيعه أو تأجيره."
         },
-        "btn1Text": {
-          "tr": "Değerleme iste",
-          "en": "Request a valuation",
-          "ar": "اطلب تقييمًا"
-        },
-        "btn1Url": "degerleme",
-        "btn2Text": {
-          "tr": "Danışmanlarımız",
-          "en": "Our advisors",
-          "ar": "مستشارونا"
-        },
-        "btn2Url": "danismanlarimiz",
-        "stil": ""
+        "stil": "",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img": "",
+        "alt": "",
+        "ikon": "",
+        "not": "",
+        "number": "",
+        "numberText": "",
+        "waLabel": "",
+        "waTitle": "",
+        "waMessage": "",
+        "hours": "",
+        "hoursLabel": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "yaziRenk": "var(--mx-site-text, #111318)"
       },
       "category": "cta",
       "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir.",
       "version": "1.1.0",
-      "icon": "campaign",
+      "icon": "confirmation_number",
       "id": "x1f009",
-      "path": "cta-1",
+      "path": "cagri-bilet",
       "local": "body",
       "data": [],
-      "index": 13
+      "index": 13,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      }
     },
     {
-      "name": "CTA Şerit 1",
+      "name": "Çağrı Bilet — delikli kupon kartı",
       "desing": {
         "max": "1200px",
+        "btn1Text": {
+          "tr": "İletişime geç",
+          "en": "Get in touch",
+          "ar": "تواصل معنا"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Ofislerimiz",
+          "en": "Our offices",
+          "ar": "مكاتبنا"
+        },
+        "btn2Url": "ofislerimiz",
         "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
         "btnbg": "#ffffff",
         "btncolor": "#10203A",
@@ -1573,29 +1901,56 @@
           "en": "Share your budget and expectations and your advisor will present suitable options from our portfolio.",
           "ar": "شاركنا ميزانيتك وتوقعاتك وسيعرض عليك مستشارنا الخيارات المناسبة من محفظتنا."
         },
-        "btn1Text": {
-          "tr": "İletişime geç",
-          "en": "Get in touch",
-          "ar": "تواصل معنا"
-        },
-        "btn1Url": "iletisim",
-        "btn2Text": {
-          "tr": "Ofislerimiz",
-          "en": "Our offices",
-          "ar": "مكاتبنا"
-        },
-        "btn2Url": "ofislerimiz",
-        "stil": ""
+        "stil": "",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img": "",
+        "alt": "",
+        "ikon": "",
+        "not": "",
+        "number": "",
+        "numberText": "",
+        "waLabel": "",
+        "waTitle": "",
+        "waMessage": "",
+        "hours": "",
+        "hoursLabel": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "yaziRenk": "var(--mx-site-text, #111318)"
       },
       "category": "cta",
       "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir.",
       "version": "1.1.0",
-      "icon": "campaign",
+      "icon": "confirmation_number",
       "id": "fzjn7r",
-      "path": "cta-1",
+      "path": "cagri-bilet",
       "local": "body",
       "data": [],
-      "index": 14
+      "index": 14,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      }
     },
     {
       "name": "Demo Kredi Şeridi",
@@ -1640,9 +1995,11 @@
       "index": 15
     },
     {
-      "name": "Tanıtım Modülü",
+      "name": "Tanıtım Polaroid — eğik fotoğraf kartı ve el yazısı not",
       "local": "body",
       "desing": {
+        "img": "emlak-ilan-salon.webp",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
         "name": {
           "tr": "Deniz manzaralı 3+1 daire — Kadıköy",
           "en": "3+1 apartment with sea view — Kadikoy",
@@ -1675,8 +2032,6 @@
           "ar": "قاضي كوي، إسطنبول — على بعد مسافة قصيرة سيرًا من المترو ومرسى العبّارات (افتراضي)."
         },
         "icon3": "location_on",
-        "img": "emlak-ilan-salon.webp",
-        "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
         "marginbotton": "20",
@@ -1685,22 +2040,59 @@
           "en": "Listing details",
           "ar": "تفاصيل الإعلان"
         },
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img2": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "category": "module",
       "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir.",
       "version": "1.1.0",
-      "icon": "business",
+      "icon": "photo_camera",
       "id": "555no8",
-      "path": "module-1",
+      "path": "tanitim-polaroid",
       "data": [],
-      "index": 16
+      "index": 16,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      }
     },
     {
-      "name": "Galeri Masonry (Filtre + Lightbox)",
-      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "name": {
+        "tr": "Galeri — Hizalı Satırlar",
+        "en": "Gallery — Justified Rows",
+        "ar": "معرض — صفوف مضبوطة"
+      },
+      "description": "Hizalı (justified) satır galerisi: her satır aynı yükseklikte, görseller kendi en-boy oranlarıyla satırı tam doldurur (flex-grow = w/h). Tıklayınca yerel <dialog> lightbox: önceki/sonraki, sayaç, başlık, Esc ve ok tuşları, kapanınca odak geri döner. Görselsiz öğe nötr yer tutucu. Veri galeri-masonry ile aynı: data[] = [{img, thumb?, title{}, alt{}, w, h}].",
       "version": "1.0.0",
-      "icon": "photo_library",
+      "icon": "view_comfy",
       "category": "galeri",
       "tags": [
         "galeri",
@@ -1723,17 +2115,6 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "gap": "12px",
         "radius": "8px",
-        "columns": {
-          "d": 3,
-          "t": 3,
-          "m": 2
-        },
-        "ratio": "auto",
-        "captions": "hover",
-        "filter": true,
-        "lightbox": true,
-        "lazy": true,
-        "urlPrefix": "",
         "title": {
           "tr": "İlan fotoğrafları",
           "en": "Listing photos",
@@ -1744,90 +2125,44 @@
           "en": "The images are AI-generated representative frames; tap to enlarge.",
           "ar": "الصور لقطات تمثيلية مُنشأة بالذكاء الاصطناعي؛ انقر لتكبيرها."
         },
-        "allLabel": {
-          "tr": "Tümü",
-          "en": "All",
-          "ar": "الكل"
-        },
-        "filterLabel": {
-          "tr": "Kategoriye göre filtrele",
-          "en": "Filter by category",
-          "ar": "التصفية حسب الفئة"
-        },
-        "countText": {
-          "zero": {
-            "ar": "لا توجد صور"
-          },
-          "one": {
-            "tr": "{n} fotoğraf",
-            "en": "{n} photo",
-            "ar": "صورة واحدة"
-          },
-          "two": {
-            "ar": "صورتان"
-          },
-          "few": {
-            "ar": "{n} صور"
-          },
-          "many": {
-            "ar": "{n} صورة"
-          },
-          "other": {
-            "tr": "{n} fotoğraf",
-            "en": "{n} photos",
-            "ar": "{n} صورة"
-          }
-        },
         "emptyText": {
           "tr": "Henüz gösterilecek görsel yok.",
           "en": "There are no images to show yet.",
           "ar": "لا توجد صور لعرضها بعد."
         },
-        "lightboxLabels": {
-          "dialog": {
-            "tr": "Görsel görüntüleyici",
-            "en": "Image viewer",
-            "ar": "عارض الصور"
-          },
-          "close": {
-            "tr": "Kapat",
-            "en": "Close",
-            "ar": "إغلاق"
-          },
-          "prev": {
-            "tr": "Önceki görsel",
-            "en": "Previous image",
-            "ar": "الصورة السابقة"
-          },
-          "next": {
-            "tr": "Sonraki görsel",
-            "en": "Next image",
-            "ar": "الصورة التالية"
-          },
-          "counter": {
-            "tr": "{i} / {n}",
-            "en": "{i} / {n}",
-            "ar": "{i} من {n}"
-          }
+        "rowHeight": "240px",
+        "onimage": "#ffffff",
+        "scrim": "rgba(0, 0, 0, 0.88)",
+        "dialogLabel": {
+          "tr": "Görsel görüntüleyici",
+          "en": "Image viewer",
+          "ar": "عارض الصور"
         },
-        "cats": [
-          {
-            "id": "ic",
-            "name": {
-              "tr": "İç mekân",
-              "en": "Interior",
-              "ar": "الداخل"
-            }
-          },
-          {
-            "id": "dis",
-            "name": {
-              "tr": "Dış mekân",
-              "en": "Exterior",
-              "ar": "الخارج"
-            }
-          }
-        ]
+        "closeLabel": {
+          "tr": "Kapat",
+          "en": "Close",
+          "ar": "إغلاق"
+        },
+        "prevLabel": {
+          "tr": "Önceki görsel",
+          "en": "Previous image",
+          "ar": "الصورة السابقة"
+        },
+        "nextLabel": {
+          "tr": "Sonraki görsel",
+          "en": "Next image",
+          "ar": "الصورة التالية"
+        },
+        "openLabel": {
+          "tr": "Büyüt",
+          "en": "Enlarge",
+          "ar": "تكبير"
+        },
+        "counter": {
+          "tr": "{i} / {n}",
+          "en": "{i} / {n}",
+          "ar": "{i} من {n}"
+        }
       },
       "data": [
         {
@@ -1928,15 +2263,20 @@
         }
       ],
       "id": "ktt03d",
-      "path": "galeri-masonry",
+      "path": "galeri-masonry-2",
       "local": "body",
-      "index": 17
+      "index": 17,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing + data[]"
+      }
     },
     {
-      "name": "Randevu / Rezervasyon Formu",
-      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "name": "Randevu Haftalık Çizelge — yedi günlük açık/kapalı şeridi",
+      "description": "Üstte yedi sütunlu hafta şeridi: her gün kısa adı, açılış–kapanış saati ya da «kapalı» (taralı); altında üç sütunlu kompakt form. Önce ne zaman açık olduğunu gösterir, sonra randevu ister; çalışma düzeni değişken işletmelerde soru sayısını azaltır. Sunucusuz gönderim (formAction JSON POST › WhatsApp › .ics › mailto), kapalı gün denetimi, KVKK onayı. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Gönderim yolu yoksa blok basılmaz.",
       "version": "1.0.0",
-      "icon": "event_available",
+      "icon": "date_range",
       "category": "randevu",
       "tags": [
         "randevu",
@@ -1949,13 +2289,13 @@
       "desing": {
         "max": "960px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
         "textcolor": "var(--mx-site-text, #1b1b1b)",
         "surface": "var(--mx-site-surface, #f6f6f4)",
         "surface2": "var(--mx-site-surface-2, #ececea)",
-        "accent": "var(--mx-site-primary, #2563eb)",
-        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
         "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
         "mode": "gosterim",
         "submit": "whatsapp",
@@ -2619,19 +2959,49 @@
             "en": "Table reservation – {party}",
             "ar": "حجز طاولة – {party}"
           }
-        }
+        },
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "id": "ty5165",
-      "path": "randevu-formu",
+      "path": "randevu-haftalik-cizelge",
       "local": "body",
       "data": [],
-      "index": 18
+      "index": 18,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ad": "hizmet adı (dil sözlüğü, zorunlu) — eski `services[].name`",
+          "sure": "dakika — eski `duration`",
+          "fiyat": "sayı (sayfa diliyle biçimlenir) — eski `price`",
+          "ikon": "Material Symbols adı",
+          "metin": "kısa açıklama (dil sözlüğü)",
+          "img": "görsel (destekleyen yerleşimde)"
+        }
+      }
     },
     {
-      "name": "Galeri Masonry (Filtre + Lightbox)",
-      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "name": {
+        "tr": "Galeri — Hizalı Satırlar",
+        "en": "Gallery — Justified Rows",
+        "ar": "معرض — صفوف مضبوطة"
+      },
+      "description": "Hizalı (justified) satır galerisi: her satır aynı yükseklikte, görseller kendi en-boy oranlarıyla satırı tam doldurur (flex-grow = w/h). Tıklayınca yerel <dialog> lightbox: önceki/sonraki, sayaç, başlık, Esc ve ok tuşları, kapanınca odak geri döner. Görselsiz öğe nötr yer tutucu. Veri galeri-masonry ile aynı: data[] = [{img, thumb?, title{}, alt{}, w, h}].",
       "version": "1.0.0",
-      "icon": "photo_library",
+      "icon": "view_comfy",
       "category": "galeri",
       "tags": [
         "galeri",
@@ -2654,17 +3024,6 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "gap": "12px",
         "radius": "8px",
-        "columns": {
-          "d": 3,
-          "t": 3,
-          "m": 2
-        },
-        "ratio": "auto",
-        "captions": "hover",
-        "filter": true,
-        "lightbox": true,
-        "lazy": true,
-        "urlPrefix": "",
         "title": {
           "tr": "Projelerimiz",
           "en": "Our projects",
@@ -2675,90 +3034,44 @@
           "en": "Ongoing and completed sample projects. Images are representative and AI-generated.",
           "ar": "مشاريع نموذجية قيد الإنجاز ومنجزة. الصور تمثيلية ومُنشأة بالذكاء الاصطناعي."
         },
-        "allLabel": {
-          "tr": "Tümü",
-          "en": "All",
-          "ar": "الكل"
-        },
-        "filterLabel": {
-          "tr": "Kategoriye göre filtrele",
-          "en": "Filter by category",
-          "ar": "التصفية حسب الفئة"
-        },
-        "countText": {
-          "zero": {
-            "ar": "لا توجد صور"
-          },
-          "one": {
-            "tr": "{n} fotoğraf",
-            "en": "{n} photo",
-            "ar": "صورة واحدة"
-          },
-          "two": {
-            "ar": "صورتان"
-          },
-          "few": {
-            "ar": "{n} صور"
-          },
-          "many": {
-            "ar": "{n} صورة"
-          },
-          "other": {
-            "tr": "{n} fotoğraf",
-            "en": "{n} photos",
-            "ar": "{n} صورة"
-          }
-        },
         "emptyText": {
           "tr": "Henüz gösterilecek görsel yok.",
           "en": "There are no images to show yet.",
           "ar": "لا توجد صور لعرضها بعد."
         },
-        "lightboxLabels": {
-          "dialog": {
-            "tr": "Görsel görüntüleyici",
-            "en": "Image viewer",
-            "ar": "عارض الصور"
-          },
-          "close": {
-            "tr": "Kapat",
-            "en": "Close",
-            "ar": "إغلاق"
-          },
-          "prev": {
-            "tr": "Önceki görsel",
-            "en": "Previous image",
-            "ar": "الصورة السابقة"
-          },
-          "next": {
-            "tr": "Sonraki görsel",
-            "en": "Next image",
-            "ar": "الصورة التالية"
-          },
-          "counter": {
-            "tr": "{i} / {n}",
-            "en": "{i} / {n}",
-            "ar": "{i} من {n}"
-          }
+        "rowHeight": "240px",
+        "onimage": "#ffffff",
+        "scrim": "rgba(0, 0, 0, 0.88)",
+        "dialogLabel": {
+          "tr": "Görsel görüntüleyici",
+          "en": "Image viewer",
+          "ar": "عارض الصور"
         },
-        "cats": [
-          {
-            "id": "devam",
-            "name": {
-              "tr": "Devam eden",
-              "en": "Ongoing",
-              "ar": "قيد الإنجاز"
-            }
-          },
-          {
-            "id": "tamam",
-            "name": {
-              "tr": "Tamamlanan",
-              "en": "Completed",
-              "ar": "منجزة"
-            }
-          }
-        ]
+        "closeLabel": {
+          "tr": "Kapat",
+          "en": "Close",
+          "ar": "إغلاق"
+        },
+        "prevLabel": {
+          "tr": "Önceki görsel",
+          "en": "Previous image",
+          "ar": "الصورة السابقة"
+        },
+        "nextLabel": {
+          "tr": "Sonraki görsel",
+          "en": "Next image",
+          "ar": "الصورة التالية"
+        },
+        "openLabel": {
+          "tr": "Büyüt",
+          "en": "Enlarge",
+          "ar": "تكبير"
+        },
+        "counter": {
+          "tr": "{i} / {n}",
+          "en": "{i} / {n}",
+          "ar": "{i} من {n}"
+        }
       },
       "data": [
         {
@@ -2859,18 +3172,26 @@
         }
       ],
       "id": "z2x69y",
-      "path": "galeri-masonry",
+      "path": "galeri-masonry-2",
       "local": "body",
-      "index": 19
+      "index": 19,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing + data[]"
+      }
     },
     {
-      "name": "Zaman Çizelgesi 1",
+      "name": "Zaman Yapışkan Yıl — kaydırırken sabit kalan dev yıllar",
       "desing": {
         "max": "1200px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "titlecolor": "var(--mx-site-text, #1b1b1b)",
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
-        "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
           "tr": "Takvim",
@@ -2887,9 +3208,20 @@
           "en": "Sample project schedule; dates are fictional and delivery times are not a commitment.",
           "ar": "جدول مشروع نموذجي؛ التواريخ افتراضية ومدد التسليم ليست التزامًا."
         },
-        "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "accentText": "#ffffff"
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "data": [
         {
@@ -2933,22 +3265,38 @@
         }
       ],
       "category": "timeline",
-      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "description": "Her dönem bir satır: solda dev yıl, satır boyunca ekranın üstüne yapışır; sağda başlık, metin ve varsa görsel akar. Yıl, içerik okunurken sabit kalan bir sayfa başlığı gibi davranır (sticky); çizgi/nokta yok, büyük tipografi. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
       "version": "1.0.0",
-      "icon": "timeline",
+      "icon": "event",
       "id": "r04cyw",
-      "path": "timeline-1",
+      "path": "zaman-yapiskan-yil",
       "local": "body",
-      "index": 20
+      "index": 20,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      }
     },
     {
-      "name": "Zaman Çizelgesi 1",
+      "name": "Zaman Yapışkan Yıl — kaydırırken sabit kalan dev yıllar",
       "desing": {
         "max": "1200px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "titlecolor": "var(--mx-site-text, #1b1b1b)",
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
-        "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
           "tr": "Süreç",
@@ -2965,9 +3313,20 @@
           "en": "A price opinion for your property in four steps.",
           "ar": "رأي في سعر عقارك في أربع خطوات."
         },
-        "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "accentText": "#ffffff"
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "data": [
         {
@@ -3024,19 +3383,32 @@
         }
       ],
       "category": "timeline",
-      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "description": "Her dönem bir satır: solda dev yıl, satır boyunca ekranın üstüne yapışır; sağda başlık, metin ve varsa görsel akar. Yıl, içerik okunurken sabit kalan bir sayfa başlığı gibi davranır (sticky); çizgi/nokta yok, büyük tipografi. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
       "version": "1.0.0",
-      "icon": "timeline",
+      "icon": "event",
       "id": "b93nsu",
-      "path": "timeline-1",
+      "path": "zaman-yapiskan-yil",
       "local": "body",
-      "index": 21
+      "index": 21,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      }
     },
     {
-      "name": "Randevu / Rezervasyon Formu",
-      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "name": "Randevu Haftalık Çizelge — yedi günlük açık/kapalı şeridi",
+      "description": "Üstte yedi sütunlu hafta şeridi: her gün kısa adı, açılış–kapanış saati ya da «kapalı» (taralı); altında üç sütunlu kompakt form. Önce ne zaman açık olduğunu gösterir, sonra randevu ister; çalışma düzeni değişken işletmelerde soru sayısını azaltır. Sunucusuz gönderim (formAction JSON POST › WhatsApp › .ics › mailto), kapalı gün denetimi, KVKK onayı. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Gönderim yolu yoksa blok basılmaz.",
       "version": "1.0.0",
-      "icon": "event_available",
+      "icon": "date_range",
       "category": "randevu",
       "tags": [
         "randevu",
@@ -3049,13 +3421,13 @@
       "desing": {
         "max": "960px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
         "textcolor": "var(--mx-site-text, #1b1b1b)",
         "surface": "var(--mx-site-surface, #f6f6f4)",
         "surface2": "var(--mx-site-surface-2, #ececea)",
-        "accent": "var(--mx-site-primary, #2563eb)",
-        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
         "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
         "mode": "gosterim",
         "submit": "whatsapp",
@@ -3701,18 +4073,44 @@
             "en": "Table reservation – {party}",
             "ar": "حجز طاولة – {party}"
           }
-        }
+        },
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "id": "chbgae",
-      "path": "randevu-formu",
+      "path": "randevu-haftalik-cizelge",
       "local": "body",
       "data": [],
-      "index": 22
+      "index": 22,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ad": "hizmet adı (dil sözlüğü, zorunlu) — eski `services[].name`",
+          "sure": "dakika — eski `duration`",
+          "fiyat": "sayı (sayfa diliyle biçimlenir) — eski `price`",
+          "ikon": "Material Symbols adı",
+          "metin": "kısa açıklama (dil sözlüğü)",
+          "img": "görsel (destekleyen yerleşimde)"
+        }
+      }
     },
     {
-      "name": "İletişim",
+      "name": "İletişim Saat Panosu — çalışma saatleri öne",
       "desing": {
-        "color": "#000",
+        "color": "var(--mx-site-text, #111318)",
         "name": {
           "tr": "Ofislerimiz",
           "en": "Our offices",
@@ -3720,7 +4118,32 @@
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "#1B3A6B",
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": "",
+        "whatsapp": "",
+        "saat": "",
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)"
       },
       "data": [
         {
@@ -3765,11 +4188,22 @@
       "category": "contact",
       "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir.",
       "version": "1.0.0",
-      "icon": "contact_mail",
+      "icon": "schedule",
       "id": "jg3kdw",
-      "path": "contact-3",
+      "path": "iletisim-saat-panosu",
       "local": "body",
-      "index": 23
+      "index": 23,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      }
     }
   ]
 }
